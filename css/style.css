@@ -1,36 +1,32 @@
 *{
     box-sizing: border-box;
   }
-
+body{
+    max-width: 80%;
+    margin: 0 10% ;
+}
 
 header{
     margin-bottom: 2%;
     background-color: #3a3a38;
     padding-bottom: 1%;
-    position: fixed;
     width: 100%;
     top: 0;
 }
 
- img{
-    margin-right: 5%;
-    
-}
 main{
     width : 100%;
 }
-main div img{
+#mainImg{
     display: block;
-    margin:7% auto 2% auto;
+    margin: 0 auto 2% auto;
+    width: max-content;
     box-sizing: border-box;
-    width: 80%;
-    margin-left: 10%;
   
 }
 
 header img{
     margin-top: 1%;
-    /* height: auto; */
     width: auto;
     max-height: 70px;
     max-width: 200px;
@@ -57,50 +53,45 @@ h3 {
     margin: 0 auto;
 }
 #subBanner{
-    width: 1367.72px; 
+    width: 100%;
     margin: 0 auto;
    }
 
-
-
- #subBanner img{
-width: 33%;
-margin: 2% auto 0 auto;
-padding: 0 2% 0 0 ;
-height:375px;
-
-} 
-
-#subBanner img:first-of-type{
-    padding-right: 0;
+#subBanner > div img{
+    width: 300px;
+    height: 375px;
+    display: inline;
+    margin: 0 auto;
+    margin-right: 2%;
 }
+
+#subBanner > div{
+    width: 80%;
+    margin-left: 18.4%;
+    margin-bottom: 2%;
+}
+
  article h3{
     font-weight: bold;
+    margin-bottom: 1%;
 }
 article p {
-     width: 480px; 
-    height: 552px;
+     height: 88%;
     overflow: hidden;
 } 
 
 article{
-    margin-top: 2%;
-    display: inline-block;
-    width: 480px;
+      display: inline-block;
+      width: 480px;
+      height: 480px;
+      overflow: hidden;
+      padding-left: 2%;
     
 }
 
-/* section:last-of-type img:last-of-type{
-    
-} */
 div{
     width: 100%;
     display:inline-block;
-}
-section:last-of-type {
-width: 80%;
-margin: 0 auto;
-
 }
 
 article button{
@@ -110,16 +101,20 @@ article button{
     margin-bottom: 2%;
 }
 
-article,section:last-of-type> img:last-of-type {
-    /* display: inline-block; */
-    padding: 0 5%;
-    width: 50%;
-    float: left;
-  
-}
+
 section:last-of-type> img:last-of-type {
     margin-right: 0px;
    }
+
+   section:last-of-type{
+       width: 100%;
+   }
+
+section:last-of-type > div{
+    width: 80%;
+    margin-left: 18.4%;
+    margin-bottom: 2%;
+}
    footer{
        clear: both;
     margin: 2% auto 0 auto;
