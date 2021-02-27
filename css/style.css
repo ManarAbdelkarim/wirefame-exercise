@@ -13,11 +13,7 @@ header{
     width: 100%;
     top: 0;
 }
-/* nav div{
-    margin: 0 auto;
-    width: 960px;
 
-} */
 nav{
     width: 100%;
     background-color: rgb(73, 73, 73);
@@ -56,30 +52,6 @@ main{
     box-sizing: border-box;
   
 }
-
-/* header img{
-    margin-top: 1%;
-    width: auto;
-    max-height: 70px;
-    max-width: 200px;
-    display: inline-block;
-}
-header nav{
-display: inline;
-width: 80%;
-margin: 0 auto;
-
-background-size: cover;
-}
-
-header nav a ,header nav img{
-    display:inline-block;
-    width: 20%;
-    line-height: 20%;
-    text-decoration: none;
-    font-size: x-large;
-    color: rgb(192, 190, 190);
-} */
 
 h3 {
     margin: 0 auto;
