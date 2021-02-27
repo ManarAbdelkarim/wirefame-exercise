@@ -13,7 +13,39 @@ header{
     width: 100%;
     top: 0;
 }
+/* nav div{
+    margin: 0 auto;
+    width: 960px;
 
+} */
+nav{
+    width: 100%;
+    background-color: rgb(73, 73, 73);
+}
+nav div{
+    margin: 1% 0 0 3%;
+    width: 960px;
+
+}
+
+ul,li{
+    display: flex;
+    justify-content: space-between;
+
+}
+ul{
+    margin: 0 auto;
+    width: 600px;
+    display: inline;
+}
+li{
+    margin-top: 20px;
+    margin-left: 11%;
+    margin-bottom: 3%;
+    display: inline-block;
+    line-height: 1.2;
+    color: white;
+}
 main{
     width : 100%;
 }
@@ -25,7 +57,7 @@ main{
   
 }
 
-header img{
+/* header img{
     margin-top: 1%;
     width: auto;
     max-height: 70px;
@@ -47,7 +79,7 @@ header nav a ,header nav img{
     text-decoration: none;
     font-size: x-large;
     color: rgb(192, 190, 190);
-}
+} */
 
 h3 {
     margin: 0 auto;
@@ -78,15 +110,15 @@ h3 {
 article p {
      height: 88%;
     overflow: hidden;
+    overflow-y: scroll;
 } 
 
 article{
       display: inline-block;
       width: 480px;
       height: 480px;
-      overflow: hidden;
       padding-left: 2%;
-    
+    overflow: hidden;
 }
 
 div{
@@ -99,6 +131,12 @@ article button{
     background-color: black;
     color: whitesmoke;
     margin-bottom: 2%;
+}
+
+button:hover{
+    cursor: pointer;
+    transition: 400ms;
+    background-color: rgba(0, 0, 0, 0.781) ;
 }
 
 
